@@ -1,0 +1,65 @@
+.r {
+color:red;
+}
+.o {
+color: blue;
+}
+.b {
+color: yellow;
+}
+.l {
+color:#e200f2;
+}
+.o {
+    color: #fa6a02;
+}
+.x {
+color: #1f02fa;
+}
+.t {
+color:#ad8109;
+}
+.a{
+color:#0a07b5;
+}
+.r {
+color:#06cf71;
+}
+.s {
+color:#fc5044;
+}
+.opogama {
+widows:350px;
+height:450px;
+}
+.opogama:active {
+width:450px;
+height:550px;
+}
+@media screen and (max-width: 1100px){
+.pp {
+background-color: #a9d9d4;
+
+border: 3px solid yellow;
+border-radius: 125px;
+transition-duration: 2s;
+margin: auto;
+padding: 25px;
+}
+
+}
+
+@media screen and (min-width:1100px){
+.pp {
+background-color: #a9d9d4;
+width:900px;
+border: 3px solid yellow;
+border-radius: 110px;
+transition-duration: 2s;
+margin: auto;
+padding: 25px;
+}
+.pp:active {
+background-color: red;
+width:1000px;
+}
